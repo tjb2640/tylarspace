@@ -1,0 +1,99 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+h1, h2, h3 {
+    font-family: 'Carter One', cursive;
+}
+
+.App {
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2em;
+}
+
+.top-header {
+    align-items: center;
+    background-color: rgb(39,34,116);
+    background: linear-gradient(90deg, rgba(39,34,116,1) 0%, rgba(224,91,230,1) 46%, rgba(246,160,67,1) 75%, rgba(255,0,138,1) 100%);
+    border-radius: 1em 1em 0 0;
+    display: flex;
+    flex-direction: row;
+    font-size: calc(10px + 1.5vmin);
+    height: 2.5em;
+    justify-content: space-between;
+    padding: 0 2em;
+}
+
+.site-logo {
+    color: #fff;
+    font-family: 'Carter One', cursive;
+    text-decoration: none;
+}
+
+.grabber-image {
+    background-image: url(../public/header.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: inset 0 0 0.75em rgba(0, 0, 0, 0.3);
+    display: flex;
+    height: 18em;
+}
+
+.grabber-image-overlay {
+    background-color: rgba(141, 59, 131, 0.457);
+    height: 100%;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+
+.grabber-image-content {
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    opacity: 100;
+    text-align: center;
+    width: 100%;
+}
+
+.grabber-text {
+    color: #fff;
+    font-family: 'Carter One', cursive;
+    font-size: calc(10px + 2.5vmax);
+    text-shadow: -0.12em 0 0 rgba(255, 106, 218, 0.5), 0.12em 0 0 hsla(217, 100%, 74%, 0.5);
+}
+
+.grabber-text-small {
+    font-size: 2em;
+    height: 0.2vmax;
+}
+
+.grabber-flags {
+    color: #fff;
+    font-size: calc(10px + 1.5vmax);
+    font-family: 'Carter One', cursive;
+}
+
+.top-nav-links {
+    column-gap: 1em;
+    display: flex;
+    flex-direction: row;
+    font-size: 0.75em;
+    list-style-type: none;
+}
+
+.top-nav-links li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.body-content {
+    border-radius: 0 0 1em 1em;
+    box-shadow: inset 0 0 0.75em rgba(0, 0, 0, 0.2);
+    padding: 3em;
+}
